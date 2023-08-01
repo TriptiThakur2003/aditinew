@@ -1,5 +1,5 @@
 :root{
-    --pink:#e84393;
+    --pink:#DC143C;
 }
 
 *{
@@ -41,7 +41,7 @@ section{
 }
 
 header{
-    background: #fff;
+    background: #808080;
     padding: 2rem 9%;
     display: flex;
     align-items: center;
@@ -51,7 +51,7 @@ header{
 
 header .logo{
     font-size: 3rem;
-    color: #333;
+    color: #000000;
     font-weight: bolder;
 }
 
@@ -62,7 +62,7 @@ header .logo span{
 header .navbar a{
     font-size: 2rem;
     padding: 0 1.5rem;
-    color: #666;
+    color: #fff;
 }
 
 header .navbar a:hover{
@@ -71,7 +71,7 @@ header .navbar a:hover{
 
 header .icons a{
     font-size: 3rem;
-    color: #333;
+    color: #000000;
     margin-left: 1.5rem;
 }
 
@@ -97,7 +97,7 @@ header .fa-bars{
     display: flex;
     align-items: center;
     min-height: 100vh;
-    background: url(../assets/dress.jpg) no-repeat;
+    background: url(../assets/new.avif) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -108,7 +108,7 @@ header .fa-bars{
 
 .home .content h3{
     font-size: 6rem;
-    color: #333;
+    color: #fff;
 }
 
 .home .content span{
@@ -126,7 +126,7 @@ header .fa-bars{
 }
 
 .icons-container{
-    background: #eee;
+    background: #fff;
     display: flex;
     flex-wrap: wrap;
     gap: 1.0rem;
@@ -135,7 +135,7 @@ header .fa-bars{
 }
 
 .icons-container .icons{
-    background: #fff;
+    background: #808080;
     border: .1rem solid rgba(0, 0, 0, .1);
     padding: 2rem;
     display: flex;
@@ -149,13 +149,13 @@ header .fa-bars{
 }
 
 .icons-container .icons h3{
-    color: #333;
+    color: #fff;
     padding-bottom: .5rem;
     font-size: 1.5rem;
 }
 
 .icons-container .icons span{
-    color: #555;
+    color: #fff;
     font-size: 1.3rem;
 }
 
